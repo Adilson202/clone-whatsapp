@@ -7,7 +7,7 @@ import getRecipientEmail from "../../utils/getRecipientEmail";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 const Chat = ({ chat, messages }) => {
-  console.log(chat, messages);
+  //console.log(chat, messages);
   const [user] = useAuthState(auth);
   return (
     <Container>
